@@ -1,13 +1,52 @@
 			local is_squig_msg = msg.text:match
-			("[Hh][Tt][Tt][Pp][Ss]://[Tt][Ee][Ll][Ee][Gg][Rr][Aa][Mm].[Mm][Ee]/[Jj][Oo][Ii][Nn][Cc][Hh][Aa][Tt]/") 
-			or msg.text:match("[Hh][Tt][Tt][Pp][Ss]://[Tt][Ee][Ll][Ee][Gg][Rr][Aa][Mm].[Mm][Ee]/[Jj][Oo][Ii][Nn][Cc][Hh][Aa][Tt]")
-			or msg.text:match("[Tt][Ee][Ll][Ee][Gg][Rr][Aa][Mm].[Mm][Ee]/[Jj][Oo][Ii][Nn][Cc][Hh][Aa][Tt]/")
-			or msg.text:match("[Tt][Ee][Ll][Ee][Gg][Rr][Aa][Mm].[Mm][Ee]/[Jj][Oo][Ii][Nn][Cc][Hh][Aa][Tt]/") 
-			or msg.text:match("[Tt][Ee][Ll][Ee][Gg][Rr][Aa][Mm].[Mm][Ee]") 
-			or msg.text:match("[Hh][Tt][Tt][Pp]://")
-			or msg.text:match("[Hh][Tt][Tt][Pp][Ss]://")
-			or msg.text:match("[Ww][Ww][Ww]:")
-			or msg.text:match("[Gg][Oo][Oo][Gg][Ll][Ee].[Cc][Oo][Mm]")
+			("😞(.+)") 
+			or msg.text:match("😞")
+			or msg.text:match("😐(.+)")
+			or msg.text:match("😐") 
+			or msg.text:match("🙁(.+)") 
+			or msg.text:match("🙁")
+			or msg.text:match("🌝(.+)")
+			or msg.text:match("🌝")
+			or msg.text:match("🤖(.+)")
+			or msg.text:match("🤖)
+			or msg.text:match("😲(.+)")
+			or msg.text:match("😲") 
+			or msg.text:match("💋(.+)") 
+			or msg.text:match("💋")
+			or msg.text:match("🙄(.+)")
+			or msg.text:match("🙄")
+			or msg.text:match("🤗(.+)")
+			or msg.text:match("🤗")
+			or msg.text:match("😱(.+)")
+			or msg.text:match("😱") 
+			or msg.text:match("💩(.+)") 
+			or msg.text:match("💩")
+			or msg.text:match("🌹(.+)")
+			or msg.text:match("🌹")
+			or msg.text:match("🖐(.+)")
+			or msg.text:match("🖐")
+                        or msg.text:match
+                        or msg.text:match
+                        or msg.text:match
+                        or msg.text:match
+                        or msg.text:match
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 			if is_squig_msg and lock_ads == "yes" then
 				delete_msg(msg.id, ok_cb, false)
 				if strict == "yes" or to_chat then
